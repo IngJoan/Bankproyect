@@ -4,8 +4,8 @@ def bankconnect():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="",
-            database="Bank")
+            password="****",
+            database="-----")
         cur = mydb.cursor()
         print("Conexion exitosa")
         return cur, mydb
